@@ -1,0 +1,16 @@
+let opcao;
+
+do {
+    opcao = Number(prompt("--- MENU DE OPÇÕES ---\n1 - Iniciar\n2 - Ajuda\n3 - Sair\n\nEscolha uma opção:"));
+
+    if (opcao === 1) {
+        alert("O jogo/programa foi iniciado! 🚀");
+    } else if (opcao === 2) {
+        alert("ÁREA DE AJUDA: Instruções enviadas para a tela. ❓");
+    } else if (opcao === 3) {
+        alert("Saindo do programa... Até mais! 👋");
+    } else {
+        alert("Opção inválida! Tente novamente.");
+    }
+
+} while (opcao !== 3);
