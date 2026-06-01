@@ -1,0 +1,12 @@
+let totalPositivos = 0;
+let numero;
+
+while (numero !== 0) {
+    numero = Number(prompt("Digite um número (ou 0 para encerrar):"));
+    
+    if (numero > 0) {
+        totalPositivos++;
+    }
+}
+
+alert("O programa terminou. Quantidade de números positivos digitados: " + totalPositivos);
