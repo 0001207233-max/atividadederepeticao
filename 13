@@ -1,0 +1,7 @@
+let numero;
+
+do {
+    numero = Number(prompt("Digite um número (o programa para quando for ímpar):"));
+} while (numero % 2 === 0);
+
+alert("Você digitou o número ímpar: " + numero + ". O programa terminou!");
