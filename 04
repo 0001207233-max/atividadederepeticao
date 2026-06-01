@@ -1,0 +1,12 @@
+let soma = 0;
+let numero;
+
+while (numero !== 0) {
+    numero = Number(prompt("Digite um número para somar (ou 0 para sair):"));
+    soma += numero;
+}
+if(soma !== 0) {
+    alert("O programa terminou. A soma total é: " + soma);
+} else {
+    alert("Nenhum número foi digitado.");
+}
