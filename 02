@@ -1,0 +1,7 @@
+let numero;
+
+do {
+    numero = Number(prompt("Digite um número maior que 100:"));
+} while (numero <= 100 || isNaN(numero));
+
+alert("Obrigado! Você digitou o número válido: " + numero);
